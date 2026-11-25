@@ -32,4 +32,7 @@
 
 在 **Plugins** 中移除 `dsh-gemini-panel` 即可；该插件没有 Host 半侧，不写任何 profile 文件。
 
-![Gemini 面板示意](preview.svg)
+<p align="center">
+  <img src="../assets/screenshots/panel-chat.png" alt="Gemini 面板（真实对话）" width="260">
+  <img src="../assets/screenshots/zoom-menu.png" alt="字号菜单" width="260">
+</p>

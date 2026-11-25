@@ -4,7 +4,13 @@
 
 A full-bleed **Gemini web** panel in the DSH desktop right sidebar. No address bar, no browser chrome: open the tab and you are in Gemini. Login state lives in the DSH desktop browser partition, and conversations can be exported as Markdown or JSON in one click.
 
-![面板示意 / preview](docs/preview.svg)
+<p align="center">
+  <img src="assets/screenshots/panel-chat.png" alt="Gemini panel with a running conversation" width="360">
+  <img src="assets/screenshots/panel-new-chat.png" alt="Gemini panel, new chat" width="360">
+  <img src="assets/screenshots/zoom-menu.png" alt="Page zoom menu that can follow the DSH font size" width="360">
+</p>
+
+截图来自真实的 DSH 桌面端右侧栏（`screenshots.json` 声明，市场详情页同款顺序）。
 
 ## 功能 / Features
 

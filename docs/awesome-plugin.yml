@@ -1,15 +1,10 @@
-# Draft entry for https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
-# File name in that repo: data/plugins/bowin6699__dsh-gemini-panel.yml
-# (Do not commit this file to the awesome repo as-is if the schema differs;
-#  mirror the fields of the neighboring YAML files there.)
+# Submission draft for awesome-dsh-plugin.
+# Copy this file to the awesome-dsh-plugin repo as:
+#   data/plugins/bowin6699__dsh-gemini-panel.yml
 url: https://github.com/bowin6699/dsh-gemini-panel
 name: bowin6699/dsh-gemini-panel
-category: ui
+category: browser
 description:
-  en: >-
-    Full-bleed Gemini web panel in the DSH desktop right sidebar, with
-    session-persistent login, page zoom (optionally following DSH font size)
-    and one-click Markdown/JSON conversation export.
-  zh: >-
-    在 DSH 桌面端右侧栏内全幅使用 Gemini 网页版，登录态跟随 DSH 浏览器分区保留，
-    支持整页缩放（可跟随 DSH 字号）与一键导出 Markdown / JSON 对话。
+  en: Full-bleed Gemini web panel in the DSH desktop right sidebar, with page zoom and one-click Markdown/JSON conversation export.
+  zh: 在 DSH 桌面端右侧栏内全幅打开 Gemini 网页版，支持整页缩放（可跟随 DSH 字号）与一键导出 Markdown / JSON 对话。
+icon: https://raw.githubusercontent.com/bowin6699/dsh-gemini-panel/main/assets/icon-180.png

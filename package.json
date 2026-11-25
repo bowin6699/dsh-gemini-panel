@@ -1,0 +1,55 @@
+{
+  "name": "dsh-gemini-panel",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Full-bleed Gemini web panel in the DSH desktop right sidebar, with session-persistent login and Markdown/JSON conversation export.",
+  "license": "MIT",
+  "author": "bowin6699",
+  "homepage": "https://github.com/bowin6699/dsh-gemini-panel#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowin6699/dsh-gemini-panel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bowin6699/dsh-gemini-panel/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "gemini",
+    "sidebar",
+    "desktop"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  }
+}

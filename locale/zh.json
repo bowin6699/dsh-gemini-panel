@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Gemini 面板",
+    "description": "在右侧栏内全幅使用 Gemini 网页版（gemini.google.com），登录态随浏览器分区保留；可整页缩放字号（支持跟随 DSH 字号），并可一键导出 Markdown / JSON 对话。",
+    "detail": "docs/DETAIL.md"
+  }
+}

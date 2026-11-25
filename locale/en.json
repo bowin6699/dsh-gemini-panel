@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Gemini Panel",
+    "description": "Use the Gemini web app (gemini.google.com) in a full-bleed right-sidebar panel; the login state lives in the browser partition. Page zoom (optionally following DSH font size) and one-click Markdown / JSON conversation export are built in.",
+    "detail": "docs/DETAIL.md"
+  }
+}

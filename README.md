@@ -46,7 +46,12 @@ dsh plugin add github:bowin6699/dsh-gemini-panel
 
 如果这个插件帮你省了来回切浏览器的时间，欢迎请作者喝一杯蜜雪冰城 🧋
 
-<img src="docs/sponsor/wechat-pay.jpg" alt="微信赞赏码" width="220">
+<table>
+  <tr>
+    <td align="center"><img src="docs/sponsor/wechat-pay.jpg" alt="微信赞赏码" width="200"><br><sub>微信</sub></td>
+    <td align="center"><img src="docs/sponsor/alipay-pay.jpg" alt="支付宝赞赏码" width="200"><br><sub>支付宝</sub></td>
+  </tr>
+</table>
 
 ## 开发 / Development
 
